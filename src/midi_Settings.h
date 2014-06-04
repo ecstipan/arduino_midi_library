@@ -39,8 +39,8 @@
 // Note that thru can work only if input and output are enabled.
 
 #define MIDI_BUILD_INPUT                1
-#define MIDI_BUILD_OUTPUT               1
-#define MIDI_BUILD_THRU                 1
+#define MIDI_BUILD_OUTPUT               0
+#define MIDI_BUILD_THRU                 0
 
 #define MIDI_USE_CALLBACKS              1
 
@@ -80,7 +80,7 @@
 // Running status enables short messages when sending multiple values
 // of the same type and channel.
 // Set to 0 if you have troubles controlling your hardware.
-#define MIDI_USE_RUNNING_STATUS         1
+#define MIDI_USE_RUNNING_STATUS         0
 
 // NoteOn with 0 velocity should be handled as NoteOf.
 // Set to 1 to get NoteOff events when receiving null-velocity NoteOn messages.
